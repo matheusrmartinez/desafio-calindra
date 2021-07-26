@@ -10,7 +10,7 @@ export const Content = styled.div`
   background-color: var(--white);
   height: 110px;
 
-  padding: 0 0 0 1.5rem;
+  padding: 0 1.5rem;
 
   display: flex;
   align-items: center;
@@ -31,14 +31,15 @@ export const TitleContainer = styled.div`
   margin-left: 1rem;
   margin-right: 40rem;
 
-  span:first-child {
+  span {
     font-weight: 700;
     font-size: 41.2px;
-  }
 
-  span {
-    font-weight: 300;
-    font-size: 16.2px;
+    & + span {
+      font-weight: 300;
+      font-size: 16.2px;
+      letter-spacing: 5.4px;
+    }
   }
 `;
 
@@ -51,5 +52,6 @@ export const NavContainer = styled.nav`
 
   a {
     font-weight: 300;
+    letter-spacing: 5.4px;
   }
 `;

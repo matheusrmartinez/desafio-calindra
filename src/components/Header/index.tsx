@@ -9,7 +9,7 @@ export function Header() {
         <img src="/images/logo_1_medium.svg" alt="measure-tape" />
         <TitleContainer>
           <span>zutterman</span>
-          <span>M e a s u r e T a p e s</span>
+          <span>Measure Tapes</span>
         </TitleContainer>
         <NavContainer>
           <a href="">ABOUT US</a>
