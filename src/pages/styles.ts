@@ -5,7 +5,7 @@ export const TopContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1920px;
+  max-width: 100%;
   height: 1080px;
 
   span {
@@ -18,13 +18,15 @@ export const TopContainer = styled.div`
   img {
     background-color: var(--background-gray);
     margin-left: 2rem;
+    max-width: 100%;
+    height: auto;
   }
 `;
 
 export const BottomContainer = styled.div`
   background-color: var(--background-blue);
   display: flex;
-  width: 1920px;
+  max-width: 100%;
   height: 1080px;
   flex-direction: column;
 
@@ -50,5 +52,7 @@ export const BottomContainer = styled.div`
   img {
     margin-left: auto;
     margin-top: -700px;
+    max-width: 100%;
+    height: auto;
   }
 `;
